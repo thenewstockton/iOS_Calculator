@@ -54,14 +54,22 @@
 		CB9749681E8E9D1B00F206FA /* 01Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				CB9749691E8E9D1B00F206FA /* AppDelegate.swift */,
+				CB97497B1E8E9E3500F206FA /* SupportingFiles */,
 				CB97496B1E8E9D1B00F206FA /* ViewController.swift */,
 				CB97496D1E8E9D1B00F206FA /* Main.storyboard */,
+			);
+			path = 01Calculator;
+			sourceTree = "<group>";
+		};
+		CB97497B1E8E9E3500F206FA /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CB9749691E8E9D1B00F206FA /* AppDelegate.swift */,
 				CB9749701E8E9D1B00F206FA /* Assets.xcassets */,
 				CB9749721E8E9D1B00F206FA /* LaunchScreen.storyboard */,
 				CB9749751E8E9D1B00F206FA /* Info.plist */,
 			);
-			path = 01Calculator;
+			name = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,7 +213,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -249,7 +257,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -263,6 +271,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XL3VRBQMWA;
 				INFOPLIST_FILE = 01Calculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thefreshstockton.-1Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +285,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XL3VRBQMWA;
 				INFOPLIST_FILE = 01Calculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thefreshstockton.-1Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
